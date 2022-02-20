@@ -39,6 +39,7 @@ body {
 }
 
 .navLinks .navlink {
+  display: inline-block;
   text-decoration: none;
   padding: 1em 1em;
   color: #ffffff;
