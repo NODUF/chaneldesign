@@ -84,6 +84,7 @@ body {
 }
 
 .card-button {
+  display: block;
   text-decoration: none;
   color: #ffffff;
   padding: 10px 60px;
