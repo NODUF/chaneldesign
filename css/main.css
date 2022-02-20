@@ -98,10 +98,22 @@ body {
   transition: ease-out 0.25s;
 }
 
+.card-button .shop-icon {
+  position: relative;
+  top: 2.5px;
+  left: 5px;
+  -webkit-transition: ease-out 0.25s;
+  transition: ease-out 0.25s;
+}
+
 .card-button:hover {
   color: #000000;
   -webkit-box-shadow: inset 0 -3em 0 0 #fff3b1;
           box-shadow: inset 0 -3em 0 0 #fff3b1;
+}
+
+.card-button:hover .shop-icon {
+  color: #000000;
 }
 
 #hero {
